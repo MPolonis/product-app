@@ -50,7 +50,6 @@ export class ProductEditor extends Component {
                 <div className="form-group">
                     <label>Cena</label>
                     <input className="form-control" name="price"
-                        disabled
                         value={this.state.formData.price}
                         onChange={this.handleChange}
                     />
